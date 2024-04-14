@@ -27,4 +27,6 @@ To run the project using Docker, follow these steps:
 **sudo docker-compose build**  
 **sudo docker-compose -f docker-compose.yaml up**
 
-This command will start the Docker containers specified in the `docker-compose.yaml` file, which may include the necessary dependencies and configurations for running the project.
+This command will start the Docker containers specified in the `docker-compose.yaml` file, which may include the necessary dependencies and configurations for running the project.  
+
+Note : Swagger-UI does not display websockets, they are indeed present within the application. To interact with websockets, please utilize Postman instead.
